@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bungee+Spice&family=Edu+SA+Hand:wght@400..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ+Basic:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url(loader.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 10px;
+}
+
+.navbar h3 {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.menu-li {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    width: 300px;
+    margin-left: 700px;
+}
+
+.menu-li a {
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: black;
+    padding: 10px;
+    transition: all ease-in 0.15s;
+}
+
+.menu-li a:hover {
+    /* margin-bottom: -2px;
+    border-bottom: 2px solid green; */
+    /* animation: changedesign 1s; */
+    scale: 0.9;
+    opacity: 0.3;
+}
+
+.navbar button {
+    border: none;
+    padding: 10px;
+    width: 70px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Container  */
+
+.container {
+    height: 125vh;
+}
+
+.container h3{
+    font-family: "Google Sans Code", monospace;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+.container input {
+    width: 600px;
+    margin-left: 380px;
+    height: 45px;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    outline: solid 2px rgba(0, 0, 0, 0.178);
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: "Google Sans Code", monospace;
+}
+
+.film-list {
+    height: 115vh;
+    background-image: url(../img-source/);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    display: none;
+    overflow: hidden;
+    padding-top: 10px;
+}
+
+.film-list li {
+    width: 300px;
+    list-style: none;
+    height: 340px;
+    border-radius: 10px;
+    padding: 10px;
+    animation: timefade 2s;
+}
+
+@keyframes timefade {
+    from{
+        transform: translateY(100px);
+        opacity: 0;
+        scale: 0.9;
+    }to{
+        transform: translateY(0);
+        opacity: 1;
+        scale: 1;
+    }
+
+}
+
+.film-list li div {
+    width: 280px;
+    height: 230px;
+    background-size: cover; /* or cover */
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.film-list li div:hover {
+    scale: 1.02;
+
+}
+
+.film-list li h3{
+    font-size: 17px;
+    display: flex;
+    padding-left: 20px;
+    margin-top: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.film-list li p {
+    --line-max: 2;
+
+    opacity: 0.7;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: var(--line-max);
+    text-align: start;
+    line-height: 20px;
+    font-size: 17px;
+    padding-left: 20px;
+    text-align: start;
+}
+
+.props {
+    height: 100vh;
+    display: flex;
+}
+
+.aboutme {
+    display: none;
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    left: 380px;
+    top: 200px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    animation: fadetime 0.15s;
+    box-shadow: 1px 1px 10px gray;
+}
+
+@keyframes fadetime {
+    from{
+        scale: 0.8;
+        opacity: 0;
+    }to{
+        scale: 1;
+        opacity: 1;
+    }
+}
+
+.aboutme div {
+    height: 250px;
+    width: 300px;
+    margin: 10px;
+    margin-left: 160px;
+    border-radius: 10px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aboutme h3, .aboutme span {
+    font-size: 20px;
+    text-align: start;
+    padding-left: 10px;
+    opacity: 0.8;
+}
+
+.aboutme span {
+    font-size: 15px;
+}
+
+.aboutme button {
+    border: solid 1px black;
+}
+
+.skip {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+    margin-left: 50px;
+}
+
+.skip button {
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: blueviolet;
+    color: #ffff;
+    cursor: pointer;
+}
+
+
+.aboutme p {
+    font-size: 20px;
+    padding: 10px;
+    text-align: start;
+    opacity: 0.6;
+    height: 200px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.copy_right {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#count {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: rgba(196, 149, 240, 0.945);
+    color: #ffff;
+}
+
+/* Start Ingredients HTML FIle */
+
+.choose-container {
+    height: vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 15px;
+    padding: 50px;
+}
+
+.choose-container li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 120px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 1px 1px 5px gray;
+    transition: all 0.30s;
+    cursor: pointer;
+}
+
+.choose-container li:hover {
+    scale: 0.9;
+}

@@ -1,0 +1,125 @@
+[
+    {
+        "title" : "Castle in the sky",
+        "field" : "anime",
+        "data" : true,
+        "id" : 1,
+        "imgsrc" : "../imgsource/Castle_in_the_sky.jpg",
+        "about" : "It follows Sheeta and Pazu, two children who discover a mysterious crystal connected to a long-lost floating island called Laputa. As they’re chased by pirates and the military, they work together to uncover the truth behind the ancient city. The film is full of adventure, wonder, and heart.",
+        "chacters" : "Pazu, Sheeta, Muska, Dola and her pirates",
+        "director" : "Hayao Miyazaki"
+    },
+
+    {
+        "title" : "Only Yesterday",
+        "field" : "anime",
+        "data" : true,
+        "id" : 2,
+        "imgsrc" : "../imgsource/Only_Yesterday.jpg",
+        "about" : "It follows Taeko, a 27-year-old woman who travels from the city to the countryside and begins reflecting on her childhood memories. Through these moments, she reconnects with her younger self and starts to understand what she truly wants in life. The film is gentle, emotional, and beautifully captures the feeling of growing up and finding your path.",
+        "chacters" : "Taeko Okajima, Toshio, family and childhood friends",
+        "director" : "Isao Takahata"
+    },
+    
+    {
+        "title" : "Ocean Waves",
+        "field" : "anime",
+        "data" : true,
+        "id" : 3,
+        "imgsrc" : "../imgsource/Ocean_Wave.jpg",
+        "about" : "It’s a quiet coming-of-age story about two high school friends whose lives change when a new girl, Rikako, transfers to their school. As emotions, misunderstandings, and memories mix together, the film gently explores youth, friendship, and the complicated feelings of growing up.",
+        "chacters" : "Taku Morisaki, Rikako Muto, Yutaka Matsuno",
+        "director" : "Tomomi Mochizuki"
+    },
+
+    {
+        "title" : "Kiki's Delivery Service",
+        "field" : "anime",
+        "data" : true,
+        "id" : 4,
+        "imgsrc" : "../imgsource/KiKis_Delivery_Service.jpg",
+        "about" : "It tells the story of Kiki, a young witch who leaves home to train for a year in a new town. With her broom and her cat Jiji, she starts a small delivery service and learns about independence, confidence, and finding her place in the world. It’s a warm, uplifting film full of charm and gentle adventure.",
+        "chacters" : "Kiki, Jiji, Tombo, Ursula",
+        "director" : "Hayao Miyazaki"
+    },
+
+    {
+        "title" : "Ponyo",
+        "field" : "anime",
+        "data" : true,
+        "id" : 5,
+        "imgsrc" : "../imgsource/Ponyo.jpg",
+        "about" : "It’s a magical story about Ponyo, a goldfish who dreams of becoming human, and a young boy named Sosuke who befriends her. As Ponyo’s powers create chaos in the natural world, the two children embark on a gentle adventure filled with wonder, love, and the beauty of the ocean.",
+        "chacters" : "Ponyo, Sosuke, Lisa, Fujimoto",
+        "director" : "Hayao Miyazaki"
+    },
+
+    {
+        "title" : "Spirited Away",
+        "field" : "anime",
+        "data" : true,
+        "id" : 6,
+        "imgsrc" : "../imgsource/Spirited_Away.jpg",
+        "about" : "It follows Chihiro, a young girl who becomes trapped in a mysterious spirit world after her parents are transformed into pigs. To save them and return home, she must work in a magical bathhouse and face challenges that test her courage. The film is enchanting, emotional, and full of unforgettable fantasy.",
+        "chacters" : "Chihiro (Sen), Haku, Yubaba, Kamaji, No-Face",
+        "director" : "Hayao Miyazaki"
+    },
+
+    {
+        "title" : "My Neighbor Totoro",
+        "field" : "anime",
+        "data" : true,
+        "id" : 7,
+        "imgsrc" : "../imgsource/My_Neighbor_Totoro.jpg",
+        "about" : "It tells the gentle story of two sisters, Satsuki and Mei, who move to the countryside and discover friendly forest spirits, including the magical Totoro. As they explore their new home, the film captures childhood wonder, imagination, and the comforting magic of nature.",
+        "chacters" : "Satsuki, Mei, Totoro, Tatsuo, Yasuko",
+        "director" : "Hayao Miyazaki"
+    },
+
+    {
+        "title" : "The Boy and the Heron",
+        "field" : "anime",
+        "data" : true,
+        "id" : 8,
+        "imgsrc" : "../imgsource/The_Boy_And_The_Heron.jpg",
+        "about" : "It follows Mahito, a young boy grieving the loss of his mother, who is drawn into a mysterious world by a strange talking heron. As he explores this surreal realm, he confronts loss, healing, and the complex emotions of growing up. The film is dreamlike, emotional, and filled with powerful imagery.",
+        "chacters" : "Main Characters: Mahito, Nagi, the Heron, Mahito’s family",
+        "director" : "Hayao Miyazaki"
+    },
+
+    {
+        "title" : "Tale of the Princess Kaguya",
+        "field" : "anime",
+        "data" : true,
+        "id": 9,
+        "imgsrc" : "../imgsource/Tale_of_the_Princess_Kaguya.jpg",
+        "about" : "A mysterious girl is discovered inside a bamboo stalk and raised by a humble bamboo cutter and his wife. She grows into a radiant young woman but struggles with the constraints of her earthly life, ultimately revealing her celestial origins. The story is a poignant reflection on life, beauty, and impermanence.",
+        "chacters" : "Princess Kaguya, Sutemaru, Sanuki, Lady Sagami",
+        "director" : "Isao Takahata"
+    },
+
+    {
+        "title" : "The Wind Rises",
+        "field" : "anime",
+        "data" : true,
+        "imgsrc" : "../imgsource/The_Wind_Rises.jpg",
+        "about" : "This film tells the story of Jiro, a passionate aeronautical engineer who dreams of designing beautiful airplanes. Set against the backdrop of pre-World War II Japan, it follows his journey of creativity, ambition, and love, while exploring the tension between innovation and the harsh realities of history."
+    },
+
+    {
+        "title" : "A Whisker Away",
+        "field" : "anime",
+        "data" : true,
+        "imgsrc" : "../imgsource/A_Whisker_Away.jpg",
+        "about" : "This film follows Miyo, a shy girl who transforms into a cat to get closer to the boy she likes. As she navigates life in her feline form, she discovers hidden truths about love, identity, and the importance of facing one’s true feelings before it’s too late."
+    },
+
+    {
+        "title" : "Drifting Home",
+        "field" : "anime",
+        "data" : true,
+        "imgsrc" : "../imgsource/Drifting_Home.jpg",
+        "about" : "This film follows a group of children who get stranded in a mysterious, floating apartment complex after a sudden storm. As they navigate this surreal world, they confront fears, memories, and the bonds of friendship, learning the value of courage and togetherness in the face of the unknown."
+    }
+
+]

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Bungee+Spice&family=Edu+SA+Hand:wght@400..700&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Manrope:wght@200..800&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+NZ+Basic:wght@100..400&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=SN+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    height: 60vh;
+    width: 500px;
+    font-family: "Inter", sans-serif;
+}
+
+.container h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    font-size: 34px;
+}
+
+.container label {
+    padding: 5px;
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.container input {
+    width: 400px;
+    height: 45px;
+    padding-left: 10px;
+    border: none;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 5px;
+    outline: solid 2px rgba(0, 0, 0, 0.178);
+    transition: all ease-in-out 0.15s;
+}
+
+.container input:focus {
+    outline-color: #0077B6;
+}
+
+.container button {
+    width: 400px;
+    height: 40px;
+    background-color: #025113;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: none;
+    margin-top: 25px;
+    color: #ffff;
+    font-size: 18px;
+    
+}
+
+.container button a {
+    text-decoration: none;
+    color: #ffff; 
+    width: 400px;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.container p {
+    margin-top: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.container p a{
+    color: #025113;
+    text-decoration: none;
+}
+
